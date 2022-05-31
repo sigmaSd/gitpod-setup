@@ -1,5 +1,5 @@
-apt update -y
-apt upgrade -y
+sudo apt update -y
+sudo apt upgrade -y
 wget https://github.com/rui314/mold/releases/download/v1.2.1/mold-1.2.1-x86_64-linux.tar.gz
 tar -xvzf mold-1.2.1-x86_64-linux.tar.gz
 mv mold-1.2.1-x86_64-linux mold
